@@ -1,6 +1,6 @@
 # newton-raphson-method
 
-> Find zeros of a function using the [Newton's Method](https://en.wikipedia.org/wiki/Newton%27s_method) method
+> Find zeros of a function using [Newton's Method](https://en.wikipedia.org/wiki/Newton%27s_method)
 
 [![Build Status][travis-image]][travis-url] [![npm version][npm-image]][npm-url]  [![Dependency Status][daviddm-image]][daviddm-url] [![js-semistandard-style][semistandard-image]][semistandard-url]
 

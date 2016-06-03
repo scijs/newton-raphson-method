@@ -25,11 +25,10 @@ function newtonRaphson (f, fp, x0, options) {
     // Compute the value of the function:
     y = f(x0);
 
-    // Compute the second derivative using a fourth order central difference:
     if (fp) {
       yp = fp(x0);
     } else {
-      // Needs first and second numerical derivatives:
+      // Needs numerical derivatives:
       yph = f(x0 + h);
       ymh = f(x0 - h);
       yp2h = f(x0 + 2 * h);
@@ -38,7 +37,7 @@ function newtonRaphson (f, fp, x0, options) {
       yp = ((ym2h - yp2h) + 8 * (yph - ymh)) * hr / 12;
     }
 
-    // Check for badly conditioned first derivative (extremely small relative to function):
+    // Check for badly conditioned update (extremely small first deriv relative to function):
     if (Math.abs(yp) <= eps * Math.abs(y)) {
       if (verbose) {
         console.log('Newton-Raphson: failed to converged due to nearly zero first derivative');
