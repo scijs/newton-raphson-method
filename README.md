@@ -55,6 +55,7 @@ Given a real-valued function of one variable, iteratively improves and returns a
 ## See Also
 
 - [`modified-newton-raphson`](https://github.com/scijs/modified-newton-raphson): A simple modification of Newton-Raphson that may exhibit improved convergence.
+- [`newton-raphson`](https://www.npmjs.com/package/newton-raphson): A similar and lovely implementation that differs (only?) in requiring a first derivative.
 
 ## License
 
