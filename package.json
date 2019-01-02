@@ -1,6 +1,6 @@
 {
   "name": "newton-raphson-method",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Find zeros of a function using the Newton-Raphson method",
   "main": "index.js",
   "author": {
