@@ -46,7 +46,7 @@ Given a real-valued function of one variable, iteratively improves and returns a
 - `options` (optional): An object permitting the following options:
   - `tolerance` (default: `1e-7`): The tolerance by which convergence is measured. Convergence is met if `|x[n+1] - x[n]| <= tolerance * |x[n+1]|`.
   - `epsilon` (default: `2.220446049250313e-16` (double-precision epsilon)): A threshold against which the first derivative is tested. Algorithm fails if `|y'| < epsilon * |y|`.
-  - `maxIter` (default: `20`): Maximum permitted iterations.
+  - `maxIterations` (default: `20`): Maximum permitted iterations.
   - `h` (default: `1e-4`): Step size for numerical differentiation.
   - `verbose` (default: `false`): Output additional information about guesses, convergence, and failure.
 

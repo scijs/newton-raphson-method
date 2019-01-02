@@ -14,7 +14,7 @@ function newtonRaphson (f, fp, x0, options) {
 
   options = options || {};
   tol = options.tolerance === undefined ? 1e-7 : options.tolerance;
-  eps = options.epsilon === undefined ? 2.220446049250313e-16 : options.epsion;
+  eps = options.epsilon === undefined ? 2.220446049250313e-16 : options.epsilon;
   maxIter = options.maxIterations === undefined ? 20 : options.maxIterations;
   h = options.h === undefined ? 1e-4 : options.h;
   verbose = options.verbose === undefined ? false : options.verbose;
