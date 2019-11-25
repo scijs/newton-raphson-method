@@ -4,8 +4,7 @@
   "description": "Find zeros of a function using the Newton-Raphson method",
   "main": "index.js",
   "author": {
-    "name": "Ricky Reusser",
-    "email": "rsreusser@gmail.com"
+    "name": "Ricky Reusser"
   },
   "license": "MIT",
   "repository": {
